@@ -46,7 +46,7 @@
             <div class="columns">
                <div class="item">
                   <h4 class="item-title">This is the post title</h4>
-                  <img src="fd-hum-<$echo ($imgNum++);$>.jpg" alt="punk bear" class="item-image" onclick="jqFade()"/>
+                  <img src="fd-hum-<?php echo ($imgNum++);?>.jpg" alt="punk bear" class="item-image" onclick="jqFade()"/>
                   <p>Frankly, it's ludicrous to have these interlocking bodies and not...interlock. My Uncle Rory was
                      the stodgiest taxidermist you've ever met by day. But I haven't spent any money! I was all... dead
                      and frugal. The only way some people can find a purpose in life is by becoming obsessed with
@@ -63,10 +63,10 @@
                      And I'm a huge fan of the way you lose control and turn into an enormous green rage monster. I
                      wanna hurt you, but I can't resist the sinister attraction of your cold and muscular body! In their
                      resting state, our actives are as innocent and vulnerable as children.</p>
-                     <img src="fdhum-<$ 
+                     <img src="fdhum-<?php 
                      if($imgNum > 5) $imgNum=1; 
                      echo ($imgNum++);
-                     $>.jpg" alt="spring blosson" class="item-image" />
+                     ?>.jpg" alt="spring blosson" class="item-image" />
                </div>
             </div>
          </div>
@@ -82,10 +82,10 @@
             <div class="columns thirds">
                <div class="item">
                   <h4 class="item-title">This is the post title</h4>
-                  <img src="fdhum-<$ 
+                  <img src="fdhum-<?php 
                      if($imgNum > 5) $imgNum=1; 
                      echo ($imgNum++);
-                     $>.jpg" alt="curious cat" class="item-image" />
+                     ?>.jpg" alt="curious cat" class="item-image" />
                   <p>From beneath you, it devours. Y'all see the man hanging out of the spaceship with the really big
                      gun? No, Angel, it's not you. If I was blind, I would see you. Yes, I'd forgotten you're
                      moonlighting as a criminal mastermind now.</p>
@@ -105,10 +105,10 @@
                      women and you just hate those two words in the same sentence, don't you? She is the slayer. I
                      recognize the council has made a decision, but given that it's a stupid-ass decision, I've elected
                      to ignore it.</p>
-                  <p><img src="fdhum-<$ 
+                  <p><img src="fdhum-<?php 
                      if($imgNum > 5) $imgNum=1; 
                      echo ($imgNum++);
-                     $>.jpg" alt="white apricot blossoms" class="item-image" />
+                     ?>.jpg" alt="white apricot blossoms" class="item-image" />
                   </p>
                   <div class="social">
                   </div>
@@ -117,10 +117,10 @@
                <div class="item">
 
                   <h4 class="item-title">This is the post title</h4>
-                  <img src="fdhum-<$ 
+                  <img src="fdhum-<?php 
                      if($imgNum > 5) $imgNum=1; 
                      echo ($imgNum++);
-                     $>.jpg" alt="sassy" class="item-image" />
+                     ?>.jpg" alt="sassy" class="item-image" />
                   <p>Everybody started singing and dancing. I saw their production of 'Giselle' in 1890. I wept like a
                      baby, and I was evil! So, are we gonna sing army songs or something? I am obsolete. This must be
                      what old people feel like, and Blockbuster. In their resting state, our actives are as innocent and
