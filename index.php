@@ -33,6 +33,7 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Assignments</a></li>
             <li id="id_cheat"><a>Toggle Images</a></li>
+            <li>><a href="index.php">Shuffle Images</a></li>
          </ul>
       </div>
    </nav>
