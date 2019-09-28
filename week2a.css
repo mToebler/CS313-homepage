@@ -160,6 +160,10 @@ h2 {
   margin: 0 0 5px 0;
   font-family: 'Bungee', cursive;
 }
+.columns .item p::first-letter {
+   font-size: 200%;
+   color: #F15D22;
+ }
 .columns .item .item-image {
   max-width: 100%;
 }
