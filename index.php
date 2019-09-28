@@ -69,16 +69,16 @@ $imgNum = rand(1, 5);
       <article class="post">
          <div class="container">
 
-            <h3>This is another section sub-title</h3>
+            <h3>A bit about the Mark-life</h3>
 
             <div class="columns thirds">
                <div class="item">
-                  <h4 class="item-title">I like rocks!</h4>
+                  <h4 class="item-title">Personal Chunk</h4>
                   <img src="fdhum-<?php
                                     if ($imgNum > 5) $imgNum = 1;
                                     echo ($imgNum++);
                                     ?>.jpg" alt="curious cat" class="item-image" />
-                  <p>Before there was the I-like-turtles-kid, a Christmas Story had the I like Rocks kid. Deathstroke zeus gargoyle abattoir boomerang spectre pennyworth azrael gearhead two. Society crane fairchild, lantern atomic batarang? Cypher grayson montoya batman cobblepot lillian hugo catwoman jim caird clayface. Rumor zucco mister kobra fright owl edward nocturna abbott echo. Metallo fox elongated alcor nigma bane raatko deathstroke batcave. Cluemaster amanda quinn metallo. Helena nyssa canary oracle ghul scarecrow tumbler.</p>
+                  <p>My stomach had slowly been twisting itself Mobius strip style since passing San Bernadino some 30 minutes ago. Los Angeles smog still palpable in the summer of 1990 had an acrid thickness those first few months hiding within it ranges of hill unseen for months at a time. (&quot;Doh! Those aren’t skyscrapers, LA has mountains&quot;) Indeed, whole neighborhoods, buildings or people could easily be lost without notice for weeks, I’d soon realize. University of Southern California occupied an awkward position then, Cartesianally and socially. Situated in historic Watts, California, USC had been feeling an urban tight squeeze as the gentrified Victorian mansions of yesteryear slowly gave way to 80s-era scourges leaving the brothers in Greek life to walk in small groups after dark. Whole neighborhoods could get lost for months you’d be told if neighbors spoke words here.  As we double parked near campus parking, a sign saluted me from afar; &quot;Welcome Trojans!&quot; large in stunning cardinal and gold hung over my new home, on campus, in Watts.</p>
                   <div class="social">
                   </div>
 
