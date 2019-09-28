@@ -1,14 +1,14 @@
-<?php 
-   $imgNum = rand(1, 5);
+<?php
+$imgNum = rand(1, 5);
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <title>Mark's Home Page</title>
-   <meta name="description"
-      content="Mark Tobler's home page for CS313. Will contain links to future assignments as well as a little blurb about a worthy foundation.">
+   <meta name="description" content="Mark Tobler's home page for CS313. Will contain links to future assignments as well as a little blurb about a worthy foundation.">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
    <link rel="stylesheet" href="week2a.css">
@@ -43,31 +43,22 @@
 
       <article class="post">
          <div class="container">
-            <h2>This is the super cool section title</h2>
+            <h2>It Must Needs Be</h2>
             <div class="columns">
                <div class="item">
-                  <h4 class="item-title">This is the post title</h4>
-                  <img src="fdhum-<?php echo ($imgNum++);?>.jpg" alt="punk bear" class="item-image" onclick="jqFade()"/>
-                  <p>Frankly, it's ludicrous to have these interlocking bodies and not...interlock. My Uncle Rory was
-                     the stodgiest taxidermist you've ever met by day. But I haven't spent any money! I was all... dead
-                     and frugal. The only way some people can find a purpose in life is by becoming obsessed with
-                     demons. Should I start this program over? It's a real burn, being right so often. Can't call to
-                     mom, can't say a word. Nobody could do that much decoupage without calling on the powers of
-                     darkness. I'll never leave. Not even if you kill me. If I could make you purtier, I would.</p>
+                  <h4 class="item-title">Opposition in all things!</h4>
+                  <img src="fdhum-<?php echo ($imgNum++); ?>.jpg" alt="punk bear" class="item-image" onclick="jqFade()" />
+                  <p>Opposition is both the bane and salvation of my existance. With it, I toil and bang my head up against the nature of things. Without it, I would fade into oblivion. I often wonder why we as humans need opposition. If, indeed, we were made in the image of God, then he must also need it. Perhaps at that level things change; however, if opposition is needed in all things and righteousness would not exist with out it, then, yeah, God has opposition in his life. But from where, other than all the little things humanity and whatever else is out there throws his way in terms of the rebeliousness? That can't be it, can it? <br>It's a rabbit hole.</p>
+
                </div>
 
                <div class="item">
-                  <h4 class="item-title">This is the post title</h4>
-                  <p>Everybody started singing and dancing. I've got four brothers, none of them Democrats. They need to
-                     take seven and they might take yours. Any self-respecting demon should be living in a pit of filth
-                     or a nice crypt. Who's calling me? Everybody I know lives here. Can't even shout, can't even cry.
-                     And I'm a huge fan of the way you lose control and turn into an enormous green rage monster. I
-                     wanna hurt you, but I can't resist the sinister attraction of your cold and muscular body! In their
-                     resting state, our actives are as innocent and vulnerable as children.</p>
-                     <img src="fdhum-<?php 
-                     if($imgNum > 5) $imgNum=1; 
-                     echo ($imgNum++);
-                     ?>.jpg" alt="spring blosson" class="item-image" />
+                  <h4 class="item-title">My dad hikes with broken glogs</h4>
+                  <p>Me, my brother, and my dad, all go on a hike to the Colorado River from an access trail just after Hoover Damn to enjoy some hot (so super hot!) springs that had been recently renovated. There are two ways in and out: one is moderately tough over mountainous terrain; the other is long, sandy, and tricky when it rains. We went the mountain path. While it's certainly no <a href="http://tolkiengateway.net/wiki/Caradhras">Caradhras</a>, it's no picnic either. It's a challenge for me—I'm huffing and sweating, hoping someone calls for a break. No dice. There are drop-offs and steep switchbacks to maneuver on the backside. So, we're at the last drop-off before the pools, and I look down at my dad's shoes and notice he's wearing Crocs. MoFo'ing Crocs—and one is missing its strap! <br>He's 82.</p>
+                  <img src="fdhum-<?php
+                                    if ($imgNum > 5) $imgNum = 1;
+                                    echo ($imgNum++);
+                                    ?>.jpg" alt="spring blosson" class="item-image" />
                </div>
             </div>
          </div>
@@ -82,34 +73,24 @@
 
             <div class="columns thirds">
                <div class="item">
-                  <h4 class="item-title">This is the post title</h4>
-                  <img src="fdhum-<?php 
-                     if($imgNum > 5) $imgNum=1; 
-                     echo ($imgNum++);
-                     ?>.jpg" alt="curious cat" class="item-image" />
-                  <p>From beneath you, it devours. Y'all see the man hanging out of the spaceship with the really big
-                     gun? No, Angel, it's not you. If I was blind, I would see you. Yes, I'd forgotten you're
-                     moonlighting as a criminal mastermind now.</p>
-                  <p>The human body can be drained of blood in 8.6 seconds given adequate vacuuming systems. Actually, I
-                     was fired from a fry-cook opportunity. I'm a comfortador also. Oh my god, I find lentils completely
-                     incomprehensible. The human mind is like Van Halen; if you just pull out one piece and keep
-                     replacing it, it just degenerates.</p>
+                  <h4 class="item-title">I like rocks!</h4>
+                  <img src="fdhum-<?php
+                                    if ($imgNum > 5) $imgNum = 1;
+                                    echo ($imgNum++);
+                                    ?>.jpg" alt="curious cat" class="item-image" />
+                  <p>Before there was the I-like-turtles-kid, a Christmas Story had the I like Rocks kid. Deathstroke zeus gargoyle abattoir boomerang spectre pennyworth azrael gearhead two. Society crane fairchild, lantern atomic batarang? Cypher grayson montoya batman cobblepot lillian hugo catwoman jim caird clayface. Rumor zucco mister kobra fright owl edward nocturna abbott echo. Metallo fox elongated alcor nigma bane raatko deathstroke batcave. Cluemaster amanda quinn metallo. Helena nyssa canary oracle ghul scarecrow tumbler.</p>
                   <div class="social">
                   </div>
 
                </div>
 
                <div class="item">
-                  <h4 class="item-title">This is the post title</h4>
-                  <p>I saw their production of 'Giselle' in 1890. I wept like a baby, and I was evil! And zombies don't
-                     eat brains anyway, unless instructed to by their zombie master. It's about power and it's about
-                     women and you just hate those two words in the same sentence, don't you? She is the slayer. I
-                     recognize the council has made a decision, but given that it's a stupid-ass decision, I've elected
-                     to ignore it.</p>
-                  <p><img src="fdhum-<?php 
-                     if($imgNum > 5) $imgNum=1; 
-                     echo ($imgNum++);
-                     ?>.jpg" alt="white apricot blossoms" class="item-image" />
+                  <h4 class="item-title">Citizen Kane Opening Scene</h4>
+                  <p>Stream of consciousness notes: The bold and domineering title; the dark imagery; the ominous music, the monkey cages; the odd, exotic boats; the great, dark house on top of a hill; the no trespassing sign; the series of gates of increasing complexity culminating in a wrought(iron), encircled K; the thick fog, the estate in disrepair; the sudden extinguishing of a light from within; then the appearance of what could be likened to a sunrise — is this hope? [The rosebud sequence here] The nurse entering, not to comfort or mourn, but to matter-of-factly confirm what is suspected by pulling a sheet over the now lifeless body; but there again is that sunrise glow framing his dead body. It's saying to those that witness, &quot;though this man died lonely and in ruins of his own making, do not judge him yet. For in his life, he achieved great things, good things, things that deserve at least passing respect.&quot; Then too, the sunrise fades into blackness.)</p>
+                  <p><img src="fdhum-<?php
+                                       if ($imgNum > 5) $imgNum = 1;
+                                       echo ($imgNum++);
+                                       ?>.jpg" alt="white apricot blossoms" class="item-image" />
                   </p>
                   <div class="social">
                   </div>
@@ -117,74 +98,28 @@
 
                <div class="item">
 
-                  <h4 class="item-title">This is the post title</h4>
-                  <img src="fdhum-<?php 
-                     if($imgNum > 5) $imgNum=1; 
-                     echo ($imgNum++);
-                     ?>.jpg" alt="sassy" class="item-image" />
-                  <p>Everybody started singing and dancing. I saw their production of 'Giselle' in 1890. I wept like a
-                     baby, and I was evil! So, are we gonna sing army songs or something? I am obsolete. This must be
-                     what old people feel like, and Blockbuster. In their resting state, our actives are as innocent and
-                     vulnerable as children. I'm a rogue demon hunter now. Hey I could whip up a love slave any day I
-                     wanted. Oh my god, I find lentils completely incomprehensible. Well we could grind our enemies into
-                     talcum powder with a sledgehammer but, gosh, we did that last night.</p>
+                  <h4 class="item-title">Oedipus</h4>
+                  <img src="fdhum-<?php
+                                    if ($imgNum > 5) $imgNum = 1;
+                                    echo ($imgNum++);
+                                    ?>.jpg" alt="sassy" class="item-image" />
+                  <p>That sharp disapproving pain, once shirked from but now craved, sewn into my soul now reflects from my formation. A young heart malnourished, starved of true affection soon turned to the only source of sustenance available—you. You—made up of all the disapproving looks, the curt words, the sharp cuffs—were my heart’s mulch, fertilizer, and Miracle grow. The cruel promises broken like Roundup shriveling any roots a nascent shoot might shoot in the supportive soils of respect, safety, morality, consistency that in return might blossom into confidence, empathy, and—lo, love. These things are like sunshine to mold simile. What capacity have I for such burdensome affects. Can you yet see, despite your antipathy, your apple fell not far from your tree?</p>
                   <div class="social">
                   </div>
                </div>
 
                <div class="item">
 
-                  <h4 class="item-title">This is the post title</h4>
-                  <p>It's funny how the Earth never opens up and swallows you when you want it to. Why can't you just
-                     masturbate like the rest of us? It's a real burn, being right so often. They need to take seven and
-                     they might take yours. We're old friends from Navy. Friends from Old Navy. I worked retail, he'd
-                     come in, buy slacks My entire existence was constructed by a sociopath in a sweater vest; what do
-                     you suggest I do?</p>
+                  <h4 class="item-title">Not far from the tree</h4>
+                  <img src="apsaraAngkor.jpg" alt="Image does not shuffle" class="item-image" />
+                  <p>Now, master gardener, as your sun dims on your winter, know that I will miss you. Like moon must miss the worldly waters it whenced so long ago when umbilical cord cosmos did cut from telestial earth, yet still moon pulls at the missed waves with an endless wave of so long. When felled from life, I wonder if like moon I will orbit around your progenitorial memory. What will sustain me? What choices will sprout with such peripetian pruning?</p>
                   <div class="social">
                   </div>
                </div>
 
-               <div class="item">
 
-                  <h4 class="item-title">This is the post title</h4>
-                  <img src="apsaraAngkor.jpg" alt="Sample Image" class="item-image" />
-                  <p>Stay away from hyena people, or any loser athletes, or if you see anyone who's invisible. From
-                     beneath you, it devours. Somebody put her tiny little thinking cap on! We'll have to call it early
-                     quantum state phenomenon.</p>
-                  <p>Only way to fit 5000 species of mammal on the same boat. I've seen the best and the worst of you.
-                     The only thing Willow was ever good for, the only thing I ever had going for me were those moments,
-                     just moments, where Tara would look at me and I was wonderful. We've got a bunch of fighters with
-                     nothing to hit, a wicca who won't-a, and the brains of our operation wears oven mitts. They
-                     rampaged through half the known world until Angel got his soul.</p>
-                  <div class="social">
-                  </div>
-               </div>
-
-               <div class="item">
-
-                  <h4 class="item-title">This is the post title</h4>
-                  <p>Oh my god you will never believe what happened at school today. We're old friends from Navy.
-                     Friends from Old Navy. I worked retail, he'd come in, buy slacks I'm not planning on presiding over
-                     the end of Western Civilization. She is the slayer. Everyone's a hero in their own way, in their
-                     own not that heroic way. Stay away from hyena people, or any loser athletes, or if you see anyone
-                     who's invisible. These endless days are finally ending in a blaze. What, you think this isn't real
-                     just because of all the vampires, and demons, and ex-vengeance demons, and the sister that used to
-                     be a big ball of universe-destroying energy? They need to take seven and they might take yours. I
-                     swallowed a bug.</p>
-                  <div class="social">
-                     </div>
-               </div>
-
-               <div class="item">
-                  <h4 class="item-title">This is the post title</h4>
-                  <p>Love keeps her in the air when she ought to fall down. Bunnies aren't just cute like everybody
-                     supposes. And I understand with perfect clarity exactly what you are. Occasionally, I'm callous and
-                     strange. You can't spend the rest of your life waiting for Xander to wake up and smell the hottie.
-                  </p>
-                  <div class="social">
-                  </div>
-               </div>
             </div>
+         </div>
          </div>
       </article>
    </section>
