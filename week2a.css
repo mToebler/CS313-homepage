@@ -161,7 +161,7 @@ h2 {
   font-family: 'Bungee', cursive;
 }
 .columns .item p::first-letter {
-   font-size: 200%;
+   font-size: 150%;
    color: #F15D22;
  }
 .columns .item .item-image {
