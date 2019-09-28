@@ -46,7 +46,7 @@
             <div class="columns">
                <div class="item">
                   <h4 class="item-title">This is the post title</h4>
-                  <img src="fd-hum-<?php echo ($imgNum++);?>.jpg" alt="punk bear" class="item-image" onclick="jqFade()"/>
+                  <img src="fdhum-<?php echo ($imgNum++);?>.jpg" alt="punk bear" class="item-image" onclick="jqFade()"/>
                   <p>Frankly, it's ludicrous to have these interlocking bodies and not...interlock. My Uncle Rory was
                      the stodgiest taxidermist you've ever met by day. But I haven't spent any money! I was all... dead
                      and frugal. The only way some people can find a purpose in life is by becoming obsessed with
